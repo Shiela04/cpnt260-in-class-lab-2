@@ -11,25 +11,143 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body style="background-image: url(images/pink-clouds.jpg)">
+
+  <body style="background-color: black">
     <h1 class="header">Anime</h1>
     <img
       class="center"
       src="images/anime.jpg"
       alt="hands posting anime characters on a white wall"
     />
-    <p class="myDiv">
-      Anime is a style of animation that originated in Japan and has become
-      popular worldwide. It encompasses a wide range of genres and themes,
-      appealing to various audiences.
-    </p>
-    <h2 class="heading">Top 5 Favorite Anime</h2>
-    <ol style="color: #ffffff">
-      <li>One Piece</li>
-      <li>HunterxHunter</li>
-      <li>Naruto</li>
-      <li>One Punch Man</li>
-      <li>Demon Slayer</li>
-    </ol>
+
+    <section class="sectionIntro">
+      <p class="intro">
+        Anime is a style of animation that originated in Japan and has become
+        popular worldwide. It encompasses a wide range of genres and themes,
+        appealing to various audiences. Here is a quote from cbr:
+      </p>
+      <blockquote
+        cite="https://www.cbr.com/best-anime-speeches-inspiration-motivaiton/#:~:text=At%20the%20end%20of%20the%20day%2C%20anime%20are,overcome%20tough%20obstacles%2C%20even%20if%20they%20are%20fictional."
+      >
+        <em
+          >At the end of the day, anime are stories, and stories have the power
+          to motivate. No matter the media label, when a great story is filled
+          with fleshed-out characters that resonate with the audience, that
+          creates meaning, and there's nothing better than watching another
+          person overcome tough obstacles, even if they are fictional</em
+        >
+      </blockquote>
+    </section>
+
+    <section class="heading">
+      <h2>Top 5 Favorite Anime</h2>
+      <p>These are my top 5 favorite anime:</p>
+      <ol class="list">
+        <li>One Piece</li>
+        <li>HunterxHunter</li>
+        <li>Naruto</li>
+        <li>One Punch Man</li>
+        <li>Demon Slayer</li>
+      </ol>
+    </section>
+
+    <section class="sectionTable">
+      <h2>Anime Rating</h2>
+      <p>Here are the ratings I gave on my top 5 anime:</p>
+      <table class="table" style="background-color: #ffffff">
+        <tr>
+          <th>Anime</th>
+          <th>Rating</th>
+        </tr>
+        <tr>
+          <td>One Piece</td>
+          <td>
+            <img
+              src="images/rating-four-half.png"
+              alt="four and a half rating"
+              width="50px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>HunterxHunter</td>
+          <td>
+            <img
+              src="images/rating-four-half.png"
+              alt="four and a half rating"
+              width="50px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Naruto</td>
+          <td>
+            <img
+              src="images/rating-four-half.png"
+              alt="four and a half rating"
+              width="50px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>One Punch Man</td>
+          <td>
+            <img
+              src="images/rating-four-half.png"
+              alt="four and a half rating"
+              width="50px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Demon Slayer</td>
+          <td>
+            <img
+              src="images/rating-four-half.png"
+              alt="four and a half rating"
+              width="50px"
+            />
+          </td>
+        </tr>
+      </table>
+      <p>
+        You can also go to
+        <a style="color: #ffffff" href="https://myanimelist.net/"
+          >My Anime List</a
+        >
+        to join the community and start your own watchlist
+      </p>
+    </section>
+
+    <section>
+      <p style="color: #ffffff">
+        Below is the trailer of the anime One Piece. Click play button to watch
+        it.
+      </p>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/MCb13lbVGE0?si=oLyIixCoUrC4KakO"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <section class="form">
+      <h2>Let's connect</h2>
+      <p>Send me your name and email and I'll get back to you</p>
+      <form action="/action_page.php" target="_blank">
+        <label for="fname">First Name</label><br />
+        <input type="text" name="fname" /><br /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" name="lname" /><br /><br />
+        <label for="email">email:</label><br />
+        <input type="text" name="email" /><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
   </body>
 </html>
