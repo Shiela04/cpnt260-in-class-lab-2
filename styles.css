@@ -1,5 +1,69 @@
+.header {
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    text-size-adjust: 200px; 
+    text-shadow: 2px 2px 15px rgb(255, 255, 255);
+}
+
 .center {
-display: block;
-margin-left: auto ;
-margin-right: auto;
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin: auto;
+    font-family: cursive;
+    color: aliceblue;
+    background-color: rgb(52, 142, 142);
+    padding: 2px 2px;
+    width: max-content;
+}
+
+.heading {
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* .heading h2 {
+    text-shadow: 2px 2px 5px ;
+} */
+
+ol.list {
+    display: inline-block;
+    text-align: left;
+}
+
+.table {
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.sectionTable p {
+    color: aliceblue;
+    text-align: center;
+}
+
+.sectionTable h2 {
+    color: aliceblue;
+    text-align: center;
+}
+.sectionIntro {
+    color: aliceblue;
+    text-align: center;
+}
+
+.form {
+    color: aliceblue;
 }
