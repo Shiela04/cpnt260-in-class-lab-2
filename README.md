@@ -7,11 +7,11 @@
 
 1. Clone the repository to your local machine:
 
-   <![GitHub cloning](images/git-clone.png)>
+   git clone <https://github.com/your-username/cpnt260-in-class-lab-2.git>
 
 2. Navigate to the project directory:
 
-   ![Project Directory](images/project-directory.png)
+   cd cpnt260-in-class-lab-2
 
 3. Create a new branch (feature/new-feature).
 
@@ -22,6 +22,18 @@
 6. Push to the branch (git push origin feature/new-feature).
 
 7. Open a Pull Request.
+
+## Credits & References
+
+<https://www.cbr.com/best-anime-speeches-inspiration-motivaiton/#:~:text=At%20the%20end%20of%20the%20day%2C%20anime%20are,overcome%20tough%20obstacles%2C%20even%20if%20they%20are%20fictional>
+
+### Photos
+
+<https://unsplash.com/>
+
+### Videos
+
+<https://www.youtube.com/>
 
 ## License
 
